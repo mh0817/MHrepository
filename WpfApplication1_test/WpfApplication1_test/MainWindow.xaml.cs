@@ -26,8 +26,14 @@ namespace WpfApplication1_test
 
         public MainWindow()
         {
+
             InitializeComponent();
-            string filename = "C:/Users/Johny/Documents/visual studio 2015/Projects/WpfApplication1_test/WpfApplication1_test/Common/0001.jpg";
+            // カレントディレクトリを取得する
+            string stCurrentDir = System.IO.Directory.GetCurrentDirectory();
+
+            string file_number = "0001";
+
+            string filename = stCurrentDir + Int32.Parse(file_number);
 
             // BitmapImageにファイルから画像を読み込む
             m_bitmap = new BitmapImage();
@@ -38,9 +44,47 @@ namespace WpfApplication1_test
             image1.Source = m_bitmap;
         }
 
+//        static string File_name(string file_path)
+//        {
+//            string stCurrentDir = System.IO.Directory.GetCurrentDirectory();
+
+//            string file_name = ;
+
+//            string filename = stCurrentDir + Int32.Parse(file_number);
+
+//            return ();
+//        }
+
+
+
         //メニュー　- 開く
         private void miOpen_Click(object sender, RoutedEventArgs e)
         {
+            string stCurrentDir = System.IO.Directory.GetCurrentDirectory();
+
+            string file_number = "0002";
+
+            string filename = stCurrentDir + Int32.Parse(file_number);
+            // BitmapImageにファイルから画像を読み込む
+            m_bitmap = new BitmapImage();
+            m_bitmap.BeginInit();
+            m_bitmap.UriSource = new Uri(filename);
+            m_bitmap.EndInit();
+            // Imageコントロールに表示
+            image1.Source = m_bitmap;
+        }
+        // メニュー - 終了
+        private void miExit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+
+            // カレントディレクトリを表示する
+            MessageBox.Show(stCurrentDir);
             // ファイルを開くダイアログ
             Microsoft.Win32.OpenFileDialog dlg =
                 new Microsoft.Win32.OpenFileDialog();
@@ -66,25 +110,6 @@ namespace WpfApplication1_test
                 // Imageコントロールに表示
                 image1.Source = m_bitmap;
             }
-        }
-        // メニュー - 終了
-        private void miExit_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
-        private void button_Click_1(object sender, RoutedEventArgs e)
-        {
-            InitializeComponent();
-            string filename = "C:/Users/Johny/Documents/visual studio 2015/Projects/WpfApplication1_test/WpfApplication1_test/Common/0002.jpg";
-
-            // BitmapImageにファイルから画像を読み込む
-            m_bitmap = new BitmapImage();
-            m_bitmap.BeginInit();
-            m_bitmap.UriSource = new Uri(filename);
-            m_bitmap.EndInit();
-            // Imageコントロールに表示
-            image1.Source = m_bitmap;
         }
     }
 

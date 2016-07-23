@@ -98,10 +98,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Common\0001.jpg" />
+    <Resource Include="Common\picture_0001.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Common\0002.jpg" />
+    <Resource Include="Common\picture_0002.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
