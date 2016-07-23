@@ -31,9 +31,9 @@ namespace WpfApplication1_test
             // カレントディレクトリを取得する
             string stCurrentDir = System.IO.Directory.GetCurrentDirectory();
 
-            string file_number = "0001";
+            string file_number = "\0001";
 
-            string filename = stCurrentDir + Int32.Parse(file_number);
+            string filename = stCurrentDir + file_number;
 
             // BitmapImageにファイルから画像を読み込む
             m_bitmap = new BitmapImage();
@@ -62,9 +62,9 @@ namespace WpfApplication1_test
         {
             string stCurrentDir = System.IO.Directory.GetCurrentDirectory();
 
-            string file_number = "0002";
+            string file_number = "\0002";
 
-            string filename = stCurrentDir + Int32.Parse(file_number);
+            string filename = stCurrentDir + file_number;
             // BitmapImageにファイルから画像を読み込む
             m_bitmap = new BitmapImage();
             m_bitmap.BeginInit();

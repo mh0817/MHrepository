@@ -20,3 +20,9 @@ C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_te
 C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\App.g.cs
 C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\WpfApplication1_test_MarkupCompile.cache
 C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\WpfApplication1_test_MarkupCompile.lref
+C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\MainWindow.baml
+C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\WpfApplication1_test.g.resources
+C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\bin\Debug\WpfApplication1_test.exe
+C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\bin\Debug\WpfApplication1_test.pdb
+C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\WpfApplication1_test.Properties.Resources.resources
+C:\Users\Johny\Source\Repos\MHrepository\WpfApplication1_test\WpfApplication1_test\obj\Debug\WpfApplication1_test.csproj.GenerateResource.Cache
