@@ -81,10 +81,6 @@ namespace WpfApplication1_test
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
-
-
-            // カレントディレクトリを表示する
-            MessageBox.Show(stCurrentDir);
             // ファイルを開くダイアログ
             Microsoft.Win32.OpenFileDialog dlg =
                 new Microsoft.Win32.OpenFileDialog();
