@@ -1,0 +1,32 @@
+﻿<Window x:Class="test_thumnail.ViewerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_thumnail"
+        xmlns:common="clr-namespace:test_thumnail.common"  
+        mc:Ignorable="d"
+        Title="サムネイルテスト">
+    <Window.DataContext>
+        <local:ViewerWindowModel />
+    </Window.DataContext>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <GroupBox Header="操作">
+                <Button Name="buttonOpen" Content="サムネイル表示" Height="25" VerticalAlignment="Top" Click="buttonOpen_Click" />
+            </GroupBox>
+        </StackPanel>
+
+        <!-- サムネイル用のスタイルを適用 -->
+        <ListBox DockPanel.Dock="Right"
+                 Style="{StaticResource listBoxThumbnailStyle}"
+                 ItemsSource="{Binding Images}">
+        </ListBox>
+
+        <!-- 画像の数に応じてスクロールバーを表示 -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <Image />
+        </ScrollViewer>
+    </DockPanel>
+</Window>

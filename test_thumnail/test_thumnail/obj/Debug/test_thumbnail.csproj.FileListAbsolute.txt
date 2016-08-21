@@ -1,0 +1,16 @@
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\bin\Debug\test_thumnail.exe.config
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\bin\Debug\test_thumnail.exe
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\bin\Debug\test_thumnail.pdb
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumbnail.csprojResolveAssemblyReference.cache
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\ViewerWindow.g.cs
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\App.g.cs
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumnail_MarkupCompile.cache
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumnail_MarkupCompile.lref
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\ViewerWindow.baml
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumnail.g.resources
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumnail.Properties.Resources.resources
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumbnail.csproj.GenerateResource.Cache
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumnail.exe
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\test_thumnail.pdb
+c:\users\johny\documents\visual studio 2015\Projects\test_thumnail\test_thumnail\obj\Debug\App.baml
